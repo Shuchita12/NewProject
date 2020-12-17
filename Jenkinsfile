@@ -11,7 +11,7 @@ tools{nodejs "node"}
         stage('Build') {
             steps {
                 echo 'Shuchita'
-                export PATH=/usr/local/bin:$PATH
+                
                  sh "npm install"
             }
         
